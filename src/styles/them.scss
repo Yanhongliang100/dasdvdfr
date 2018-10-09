@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Microsoft YaHei;
+  background-color: #f6f6f6;
+}
+
+//layout顶部布局
+
+.sidebar-container {
+  top: 50px !important
+}
+
+#app .main-container {
+  padding-top: 50px
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  border-bottom: 0 none !important;
+  background: #409EFF
+}
+
+.scroll-wrapper {
+  bottom: 0
+}
+
+.avatar-wrapper {
+  line-height: normal;
+  .user-avatar {
+    border-radius: 50% !important;
+  }
+  i {
+    top: 15px !important;
+    color: #fff !important
+  }
+}
+
+//系统大标题
+.systitle {
+  float: left;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px
+}
+
+//选项卡区域
+.tags-view-container .tags-view-wrapper .tags-view-item {
+  border-bottom: 0 none !important
+}
+
+//按钮输入框
+.el-button {
+  border-radius: 2px
+}
+
+.el-input__inner {
+  border-radius: 2px
+}
+
+.el-button--small, .el-button--small.is-round {
+  padding: 8px 15px 9px 15px
+}
+
+//主体内容
+.app-container {
+  background-color: #fff;
+  margin: 20px;
+}
+
+//面包屑导航
+.app-main {
+  posititon: relative;
+  .app-breadcrumb.el-breadcrumb {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .no-redirect {
+    color: #409eff !important;
+  }
+}
+
+//页内标题栏
+
+.conheader {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  line-height: 32px;
+  h3 {
+    color: #333;
+    font-size: 20px;
+    float: left;
+    font-weight: normal;
+    margin: 0;
+    font-size: 17px;
+    line-height: 32px
+  }
+}
+
+//给主体内容区域加边线
+//.app-container > div:first-child {
+//  border-bottom: 1px solid #eee;
+//  padding-bottom: 20px
+//}
+
+//表格
+.el-table th {
+  background: #f6f6f6
+}
+
+//左上角svg
+.hamburger-container svg {
+  fill: #fff
+}
+.hamburger{width:16px;height: 16px}
+.screenfull-svg {
+  fill: #fff !important
+}
